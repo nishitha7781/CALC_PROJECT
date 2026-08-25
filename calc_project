@@ -1,5 +1,9 @@
-class clac_project{
+class calc_project{
 public int add(int a,int b){
+int c=a+b;
+return c;
 }
 public static void main(String[] args){
+calc_project cal=new calc_project();
+System.out.println("the addition of two numbers are": +cal.add(2,4));
 }}
